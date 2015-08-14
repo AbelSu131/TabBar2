@@ -9,11 +9,11 @@
         <scene sceneID="c0j-5c-hzW">
             <objects>
                 <navigationController id="6ZH-V1-T5b" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="2" title="邮箱" image="tabbar_message_center" id="4Zk-pE-ETt"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="邮箱" image="tabbar_message_center" selectedImage="tabbar_message_center_highlighted" id="4Zk-pE-ETt"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1g3-b5-47K">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.21878139669999999" green="0.71567953289999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -50,11 +50,11 @@
         <scene sceneID="VMB-Ib-CYd">
             <objects>
                 <navigationController id="HUI-Um-8ug" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="3" title="我的" image="tabbar_profile" id="duM-dP-1t8"/>
+                    <tabBarItem key="tabBarItem" tag="3" title="我的" image="tabbar_profile" selectedImage="tabbar_profile_selected" id="duM-dP-1t8"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8l0-Sj-SqT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.21878139669999999" green="0.71567953289999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -91,11 +91,11 @@
         <scene sceneID="mcc-9j-Vc5">
             <objects>
                 <navigationController id="0gv-xr-KWA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="1" title="首页" image="tabbar_home" id="Syj-Bn-5Fu"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="首页" image="tabbar_home" selectedImage="tabbar_home_selected" id="Syj-Bn-5Fu"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="v0e-tz-lhc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.21878139669999999" green="0.71567953289999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                             <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
@@ -131,7 +131,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="yan-q1-ZiE">
             <objects>
-                <tabBarController id="L7r-jk-ctW" sceneMemberID="viewController">
+                <tabBarController id="L7r-jk-ctW" customClass="TabBarController" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="aTB-xb-JPZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
@@ -151,7 +151,10 @@
     </scenes>
     <resources>
         <image name="tabbar_home" width="30" height="30"/>
+        <image name="tabbar_home_selected" width="30" height="30"/>
         <image name="tabbar_message_center" width="30" height="30"/>
+        <image name="tabbar_message_center_highlighted" width="30" height="30"/>
         <image name="tabbar_profile" width="30" height="30"/>
+        <image name="tabbar_profile_selected" width="30" height="30"/>
     </resources>
 </document>

@@ -16,8 +16,7 @@
 
 - (void)viewDidLoad {
     self.title = @"我的";
-    UINavigationBar *profile = self.navigationController.navigationBar;
-    [profile setBackgroundColor:[UIColor blueColor]];
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }

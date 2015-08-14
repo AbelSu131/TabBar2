@@ -16,6 +16,7 @@
 		B58D60361B7BBCB000AC4EFD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58D60351B7BBCB000AC4EFD /* FirstViewController.m */; };
 		B58D60391B7BBCC000AC4EFD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58D60381B7BBCC000AC4EFD /* SecondViewController.m */; };
 		B58D603C1B7BBCCF00AC4EFD /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58D603B1B7BBCCF00AC4EFD /* ThirdViewController.m */; };
+		B5C5C4681B7E4B2C0047C65A /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C5C4671B7E4B2C0047C65A /* TabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		B58D60381B7BBCC000AC4EFD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B58D603A1B7BBCCF00AC4EFD /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		B58D603B1B7BBCCF00AC4EFD /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		B5C5C4661B7E4B2C0047C65A /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		B5C5C4671B7E4B2C0047C65A /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				B58D60201B7BBB4200AC4EFD /* AppDelegate.h */,
 				B58D60211B7BBB4200AC4EFD /* AppDelegate.m */,
 				B58D60231B7BBB4200AC4EFD /* ViewController.h */,
+				B5C5C4661B7E4B2C0047C65A /* TabBarController.h */,
+				B5C5C4671B7E4B2C0047C65A /* TabBarController.m */,
 				B58D60241B7BBB4200AC4EFD /* ViewController.m */,
 				B58D60341B7BBCB000AC4EFD /* FirstViewController.h */,
 				B58D60351B7BBCB000AC4EFD /* FirstViewController.m */,
@@ -77,8 +82,8 @@
 				B58D60381B7BBCC000AC4EFD /* SecondViewController.m */,
 				B58D603A1B7BBCCF00AC4EFD /* ThirdViewController.h */,
 				B58D603B1B7BBCCF00AC4EFD /* ThirdViewController.m */,
-				B52AA2961B7CF5FB00240F34 /* LaunchScreen.storyboard */,
 				B58D60261B7BBB4200AC4EFD /* Main.storyboard */,
+				B52AA2961B7CF5FB00240F34 /* LaunchScreen.storyboard */,
 				B58D60291B7BBB4200AC4EFD /* Assets.xcassets */,
 				B58D602E1B7BBB4200AC4EFD /* Info.plist */,
 				B58D601D1B7BBB4200AC4EFD /* Supporting Files */,
@@ -165,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C5C4681B7E4B2C0047C65A /* TabBarController.m in Sources */,
 				B58D60391B7BBCC000AC4EFD /* SecondViewController.m in Sources */,
 				B58D60251B7BBB4200AC4EFD /* ViewController.m in Sources */,
 				B58D603C1B7BBCCF00AC4EFD /* ThirdViewController.m in Sources */,

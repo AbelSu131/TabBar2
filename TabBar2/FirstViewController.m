@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     self.title = @"首页";
+    //self.tabBarController.tabBar.selectedItem.selectedImage = [UIImage imageNamed:@"tabbar_home_selected"];
+    //self.tabBarController.tabBar.tintColor = [UIColor colorWithRed:255.0/255.0 green:124.0/255.0 blue:56.0/255.0 alpha:1];
+
+    
     
     [super viewDidLoad];
     // Do any additional setup after loading the view.
